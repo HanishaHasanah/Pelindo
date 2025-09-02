@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SB Admin 2 - Login</title>
+    <title>Login</title>
 
     <!-- Fonts & Styles -->
     <link href="{{ asset('tamplate/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
@@ -12,7 +12,7 @@
     <link href="{{ asset('tamplate/css/sb-admin-2.min.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-info">
 
     <!-- Centered Login Card -->
     <div class="min-vh-100 d-flex justify-content-center align-items-center">
@@ -51,9 +51,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                 <hr>
-                                <a href="#" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Login with Google
-                                </a>
+                               
                             </form>
                             <hr>
                             <div class="text-center">

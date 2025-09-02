@@ -25,31 +25,24 @@
             </div>
 
 <!-- Nav Item - Charts -->
-            <li class="nav-item active">
-                <a class="nav-link" href="charts.html">
+            <li class="nav-item {{ request()->routeIs('app_GC') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('app_GC') }}">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Dashboard General Cargo</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+            <li class="nav-item {{ request()->routeIs('Data_GC') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('Data_GC') }}">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Data Produksi</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+            <li class="nav-item {{ request()->routeIs('analisis_GC') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('analisis_GC') }}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Analisa Produksi</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Input Data</span></a>
+                    <span>Analisis Produksi</span></a>
             </li>
 
             <!-- Divider -->

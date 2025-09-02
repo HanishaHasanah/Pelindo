@@ -3,7 +3,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-text mx-3">Curah Kering</div>
+                <div class="sidebar-brand-text mx-3">Curah Cair</div>
             </a>
 
             <!-- Divider -->
@@ -25,31 +25,24 @@
             </div>
 
 <!-- Nav Item - Charts -->
-            <li class="nav-item active">
-                <a class="nav-link" href="charts.html">
+            <li class="nav-item {{ request()->routeIs('dashboard_CK') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('dashboard_CK') }}">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Dashboard Curah Kering</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+            <li class="nav-item {{ request()->routeIs('Data_CK') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('Data_CK') }}">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Data Produksi</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+            <li class="nav-item {{ request()->routeIs('analisis_CK') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('analisis_CK') }}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Analisa Produksi</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Input Data</span></a>
+                    <span>Analisis Produksi</span></a>
             </li>
 
             <!-- Divider -->
